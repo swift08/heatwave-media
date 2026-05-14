@@ -139,7 +139,7 @@ const PortfolioSection = () => {
           viewport={{ once: true }}
         >
           <a
-            href="https://www.instagram.com/heatwave_media"
+            href="https://www.instagram.com/heatwavemedia.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-4 group"

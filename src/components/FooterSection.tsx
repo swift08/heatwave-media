@@ -14,10 +14,16 @@ const FooterSection = () => {
               The boldest creative collective in Mysuru. We engineer digital dominance for brands that refuse to be quiet.
             </p>
             <div className="mt-10 flex gap-4">
-              {[Instagram, Mail, Phone].map((Icon, idx) => (
+              {[
+                { Icon: Instagram, href: "https://www.instagram.com/heatwavemedia.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+                { Icon: Mail, href: "mailto:contact@heatwavemedia.in" },
+                { Icon: Phone, href: "tel:+918073570624" }
+              ].map(({ Icon, href }, idx) => (
                 <a 
                   key={idx} 
-                  href="#" 
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-500"
                 >
                   <Icon className="w-5 h-5" />

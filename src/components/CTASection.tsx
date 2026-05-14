@@ -36,7 +36,7 @@ const CTASection = () => {
               </p>
               
               <motion.a
-                href="https://www.instagram.com/heatwave_media"
+                href="https://www.instagram.com/heatwavemedia.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center px-16 py-8 rounded-full overflow-hidden"
